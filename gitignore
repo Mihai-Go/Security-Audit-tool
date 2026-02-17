@@ -1,0 +1,32 @@
+# Security Audit Tool - Git Ignore File
+# This file tells Git which files NOT to upload to GitHub
+
+# Generated Reports (these contain sensitive system info)
+*.html
+*-report.html
+security-report.*
+
+# Log Files
+*.log
+
+# Temporary Files
+*.tmp
+*.temp
+.DS_Store
+
+# macOS System Files
+.DS_Store
+.AppleDouble
+.LSOverride
+
+# Editor Files
+.vscode/
+.idea/
+*.swp
+*.swo
+*~
+
+# Personal test files
+test.sh
+testing.sh
+my-test*
